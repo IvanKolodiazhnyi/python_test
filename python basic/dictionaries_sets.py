@@ -6,7 +6,7 @@ user_profile = {
 }
 
 print(user_profile["age"], user_profile["city"])
-user_profile["age"] = 28,
+user_profile["age"] = 28
 user_profile["email"] = "some_email@gmail.com"
 user_profile.pop("is_active")
 print(user_profile)
