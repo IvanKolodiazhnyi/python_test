@@ -9,21 +9,21 @@ greet()
 #Функція для додавання чисел:
 
 def odd_numberes(a = 0, b = 0):
-    print(int(a) + int(b))
+    return(int(a) + int(b))
 
-odd_numberes(321 + 755)
-odd_numberes()
+print(odd_numberes(321, 755))
+print(odd_numberes())
 
 #Функція для перевірки парності:
 
 def is_even(number = 0):
     if int(number) % 2 == 0:
-        print(True)
+        return(True)
     else:
-        print(False)
+        return(False)
 
-is_even(21)
-is_even(44)
+print(is_even(21))
+print(is_even(44))
 
 #Функція з параметром за замовчуванням: Я це зробив на самому початку
 #Функція для розрахунку площі (з *args - необов'язково, для цікавості):
