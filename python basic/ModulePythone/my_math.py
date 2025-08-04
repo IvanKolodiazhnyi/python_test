@@ -1,10 +1,10 @@
 import math
 
 def circle_area(radius):
-    return math.pi * math.sqrt(radius)
+    return math.pi * (radius ** 2)
 
 def rectangle_perimeter(length, width):
-    return length + width
+    return 2 * (length + width)
 
 def divide_numbers(a, b):
     try:
