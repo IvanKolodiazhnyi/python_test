@@ -38,3 +38,6 @@ def process_file(filename):
         print(f"Вміст файлу: {file}")
     finally:
         print("Спроба обробки файлу завершена.")
+
+def checkName():
+    print(__name__)

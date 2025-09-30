@@ -1,4 +1,4 @@
-from my_math import circle_area, rectangle_perimeter, divide_numbers, ValueErrorFun, process_file
+from my_math import circle_area, rectangle_perimeter, divide_numbers, ValueErrorFun, process_file, checkName
 
 print(circle_area(10))
 print(rectangle_perimeter(10, 20))
@@ -9,3 +9,4 @@ ValueErrorFun()
 
 process_file("asdnasd")
 process_file("test.txt")
+checkName()
